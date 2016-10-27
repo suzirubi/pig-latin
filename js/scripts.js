@@ -27,7 +27,19 @@ $(document).ready(function() {
       });
     }
 
+    var vowelStart = function (letter) {
+    for (var i = 0; i < letter.length; i += 1) {
+        console.log(letter[i].charAt(0));
+      }
+    }
+
+    vowelStart(oneWord);
+
+    console.log(oneWord);
+
     var result = oneWord.join(" ");
+
+    console.log(result);
 
     $(".result").text(result);
 
