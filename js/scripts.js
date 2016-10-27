@@ -1,13 +1,20 @@
+// business logic
+arraySentence.forEach(word,)
+
+
+
+
+
 $(document).ready(function() {
 
   $("form#pigForm").submit(function(event) {
 
       var originalSentence = $("input#pigInput").val();
-      var result = originalSentence.toUpperCase();
-      //var result = translate(originalSentence);
+      var arraySentence = originalSentence.split(" ");
 
-      $(".result").text(result);
-
+      // var result = translate(originalSentence);
+      //
+      // $(".result").text(result);
 
     event.preventDefault();
   });

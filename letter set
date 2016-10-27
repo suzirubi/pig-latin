@@ -1,0 +1,67 @@
+["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+
+var letterSet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+
+
+
+var originalSentence = " ";
+
+
+ var vowelFind = function(word) {
+
+ for (count = 0; count < originalSentence.length; count ++) {
+ 	if (originalSentence.includes(word[count])) {
+  return count;
+  }
+
+}
+
+
+var vowelSet = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+
+var originalSentence = ["this", "is", "a", "Apple", "sentence", "Orange", "and", "kiwis"];
+
+var vowelWord = originalSentence.forEach(function(word) {
+   var vowelFind = function(word) {
+
+   for (count = 0; count < originalSentence.length; count ++) {
+    if (originalSentence.includes(word[count])) {
+    return count;
+    }
+	alert(word[0] === vowelSet);
+}
+
+
+screen capture of eric and eric's:
+
+var vowelFinder = function(word) {
+  for (var index = 0; index < word.length; index++) {
+    if (vowelArray.includes(word[index])) {
+      return index;
+      break;
+    } else {}
+  };
+};
+
+var makePigLatin = function(word) {
+  var vowelArray = ["a", "e", "i", "o", "u"];
+  var firstVowel = vowelFinder(word);
+  if (vowelArray.includes(word[0])) {
+    word += "ay";
+  }
+  return word;
+};
+
+
+
+
+
+
+ var vowelFind = function(word) {
+
+ for (count = 0; count < originalSentence.length; count ++) {
+ 	if (originalSentence.includes(word[count])) {
+  return count;
+  }
+
+}
